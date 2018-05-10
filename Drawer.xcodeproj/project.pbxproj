@@ -15,6 +15,11 @@
 		FD05E2AF20A0277D00764FD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05E2AE20A0277D00764FD9 /* main.m */; };
 		FD05E2B920A0277D00764FD9 /* DrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05E2B820A0277D00764FD9 /* DrawerTests.m */; };
 		FD05E2C420A0277D00764FD9 /* DrawerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05E2C320A0277D00764FD9 /* DrawerUITests.m */; };
+		FD05E2D420A02D1900764FD9 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05E2D220A02D1900764FD9 /* SecondVC.m */; };
+		FD05E2D520A02D1900764FD9 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD05E2D320A02D1900764FD9 /* SecondVC.xib */; };
+		FD05E2D920A02D2500764FD9 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05E2D720A02D2500764FD9 /* FirstVC.m */; };
+		FD05E2DA20A02D2500764FD9 /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD05E2D820A02D2500764FD9 /* FirstVC.xib */; };
+		FD05E2DD20A2D21A00764FD9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05E2DC20A2D21A00764FD9 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		FD05E2BF20A0277D00764FD9 /* DrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD05E2C320A0277D00764FD9 /* DrawerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerUITests.m; sourceTree = "<group>"; };
 		FD05E2C520A0277D00764FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD05E2D120A02D1900764FD9 /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		FD05E2D220A02D1900764FD9 /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		FD05E2D320A02D1900764FD9 /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		FD05E2D620A02D2500764FD9 /* FirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		FD05E2D720A02D2500764FD9 /* FirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		FD05E2D820A02D2500764FD9 /* FirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		FD05E2DB20A2D21900764FD9 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		FD05E2DC20A2D21A00764FD9 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +118,14 @@
 				FD05E2A020A0277A00764FD9 /* AppDelegate.m */,
 				FD05E2A220A0277A00764FD9 /* ViewController.h */,
 				FD05E2A320A0277A00764FD9 /* ViewController.m */,
+				FD05E2DB20A2D21900764FD9 /* UIView+Frame.h */,
+				FD05E2DC20A2D21A00764FD9 /* UIView+Frame.m */,
+				FD05E2D620A02D2500764FD9 /* FirstVC.h */,
+				FD05E2D720A02D2500764FD9 /* FirstVC.m */,
+				FD05E2D820A02D2500764FD9 /* FirstVC.xib */,
+				FD05E2D120A02D1900764FD9 /* SecondVC.h */,
+				FD05E2D220A02D1900764FD9 /* SecondVC.m */,
+				FD05E2D320A02D1900764FD9 /* SecondVC.xib */,
 				FD05E2A520A0277A00764FD9 /* Main.storyboard */,
 				FD05E2A820A0277D00764FD9 /* Assets.xcassets */,
 				FD05E2AA20A0277D00764FD9 /* LaunchScreen.storyboard */,
@@ -237,7 +258,9 @@
 			files = (
 				FD05E2AC20A0277D00764FD9 /* LaunchScreen.storyboard in Resources */,
 				FD05E2A920A0277D00764FD9 /* Assets.xcassets in Resources */,
+				FD05E2D520A02D1900764FD9 /* SecondVC.xib in Resources */,
 				FD05E2A720A0277A00764FD9 /* Main.storyboard in Resources */,
+				FD05E2DA20A02D2500764FD9 /* FirstVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD05E2DD20A2D21A00764FD9 /* UIView+Frame.m in Sources */,
+				FD05E2D920A02D2500764FD9 /* FirstVC.m in Sources */,
 				FD05E2A420A0277A00764FD9 /* ViewController.m in Sources */,
 				FD05E2AF20A0277D00764FD9 /* main.m in Sources */,
+				FD05E2D420A02D1900764FD9 /* SecondVC.m in Sources */,
 				FD05E2A120A0277A00764FD9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
